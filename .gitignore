@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/processed/*.npz
+data/raw/zeta_zeros.npy
+figures/*.pdf
+figures/*.png
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.synctex.gz
+paper/paper.pdf
+paper/paper_zh.pdf
+.venv/

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Hyperuniform isotope engineering of phonon transport in h-BN"
+message: "If you use this software or data, please cite both the software (Zenodo DOI) and the paper."
+type: software
+authors:
+  - given-names: "Ronghua"
+    family-names: "Wu"
+    email: "wrh@gdtzn.com"
+    affiliation: "Zhuhai Jiuchongtian Aviation Technology Co., Ltd., Zhuhai, China"
+  - given-names: "Ruqing"
+    family-names: "Chen"
+    email: "ruqing@hotmail.com"
+    affiliation: "GUT Geoservice Inc., Montreal, Canada"
+repository-code: "https://github.com/Ruqing1963/hbn-hyperuniform-isotope"
+url: "https://github.com/Ruqing1963/hbn-hyperuniform-isotope"
+license: MIT
+version: 1.0.0
+doi: 10.5281/zenodo.XXXXXXX
+date-released: 2026-01-01
+keywords:
+  - phonon transport
+  - hyperuniformity
+  - isotope engineering
+  - hexagonal boron nitride
+  - Riemann zeta zeros
