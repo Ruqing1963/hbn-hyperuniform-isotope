@@ -1,0 +1,23 @@
+% ---------------------------------------------------------------------------
+% revtex_shim.tex -- fallback preamble for building a preview PDF WITHOUT
+% REVTeX 4.2 installed.  It emulates the PRL two-column layout closely enough
+% to read and circulate, but it is NOT the REVTeX typesetting: do not submit
+% the resulting PDF.  Build the real thing with `make paper` once
+% texlive-publishers (or the REVTeX 4.2 distribution) is present.
+% ---------------------------------------------------------------------------
+\documentclass[10pt,twocolumn]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{amsmath,amssymb,graphicx,bm,color,times}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\bfseries\filcenter}{\Roman{section}.}{0.5em}{\uppercase}
+\titleformat{\subsection}{\normalfont\itshape\filcenter}{\Alph{subsection}.}{0.5em}{}
+\newenvironment{ruledtabular}{\centering\small}{}
+\newenvironment{acknowledgments}{\par\medskip\noindent\textit{Acknowledgments.}\ }{\par}
+% article's \author does NOT accumulate: a second \author overwrites the
+% first, silently dropping co-authors. The preview generator therefore folds
+% all \author/\email/\affiliation groups into one block before compiling.
+\newcommand{\affiliation}[1]{}
+\newcommand{\email}[1]{}
+\newcommand{\colrule}{\hline}
+\setlength{\parskip}{0pt}
